@@ -6,12 +6,45 @@
     <title>form </title>
 </head>
 <body>
+   <h1>Registration form</h1>
    <form action="/action.php">
-   <input type="text"placeholder="username">
-   <input type="password" placeholder="password">
-
-   <input type="ratio" value=" part 1st" name="bca">part 1st
-   <input type="ratio" value=" part 2nd" name="bca">part 2nd
-   </form>
-
+   <input type="text"placeholder="username" required ><br><br>
+   <input type="password" placeholder="password"><br><br>
+   <h2>class</h2>
+    <label for="12">
+   <input type="radio" value=" part 1st" name="bca"id=12>part 1st <br><br>
+   <label for="13">
+   <input type="radio" value=" part 2nd" name="bca"id=13>part 2nd 
+  </label><br>
+  <h2>subject</h2> 
+  <label for="math"></label>
+    <input type="checkbox"  value="math" name="subject" id="12">math
+</label><br><br>
+<label for="science"></label>
+    <input type="checkbox"  value="science" name="subject" id="013">science
+</label><br><br>
+<label for="hindi"></label>
+    <input type="checkbox"  value="hindi" name="subject" id="14">hind
+</label><br><br>
+<label for="computer"></label>
+    <input type="checkbox"  value="computer" name="subject" id="15">computer
+</label><br><br>
+<label for="sanskrit"></label>
+    <input type="checkbox"  value="sanskrit" name="subject" id="16">sanskrit
+</label>
+  <h2>select your city</h2>
+  <select name="city">
+   <option value="gaya">gaya</option>
+   <option value="nawada">nawada</option>
+   <option value="lodhway">lodhway</option>
+   <option value="kanpur">kanpur</option>
+</select>
+ <br>
+  <h2>Feedback</h2>
+ <textarea name="feedback" id="10" placeholder="please give your feedback" rows="5" ></textarea><br>
+    <input type="submit" name="submit" id="">
+ </form>
+ <iframe src="https://en.wikipedia.org/wiki/India" weidth="546" height="324"  frameborder="0"></iframe>
+   <footer></footer>
+</body>
 </html>
