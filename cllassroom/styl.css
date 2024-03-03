@@ -1,0 +1,39 @@
+h1 {
+color: rgb(5, 49, 130);
+}
+
+ /* #firstone{
+    color: rgb(168, 13, 168);
+} */
+
+/* this is a comment */
+/* 
+.heading {
+    color: rgb(10, 10, 124);
+} */
+
+
+button{
+    color: coral;
+    background-color:white;
+} 
+
+body{
+    background-color:#979c94;
+  }
+/* 
+#headingone {
+    color: rgb(157, 115, 60);
+}
+
+#headingtwo {
+    color: rgb(102, 143, 60);
+} */
+
+ h1,h2,h3 {
+    color: red;
+ }
+
+
+
+ 
