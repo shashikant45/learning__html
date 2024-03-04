@@ -1,0 +1,16 @@
+p {
+    color: brown;
+    text-align: left;
+}
+h1{
+    color:palevioletred;
+    text-align: center;
+    font-size:x-large ;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    text-decoration:underline;
+}
+#google {
+    display: flex;
+    justify-content:flex-end;
+} 
